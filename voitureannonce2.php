@@ -12,16 +12,16 @@
                 <img src="images/logo.png">
                 <nav class="navbar">
                     <ul>
-                       <li class="btn-lg btn btn-danger"><a href="index.php">Services</a>  
-                       <li class="btn-lg btn btn-danger"><a href="voitureoccasion.php">Véhicules d'occasion</a></li>
-                       <li class="btn-lg btn btn-danger"><a href="rendezvous.php">Rendez-vous</a></li>
+                       <li class="btn-lg btn btn-danger"><a href="index.html">Services</a>  
+                       <li class="btn-lg btn btn-danger"><a href="voitureoccasion.html">Véhicules d'occasion</a></li>
+                       <li class="btn-lg btn btn-danger"><a href="rendezvous.html">Rendez-vous</a></li>
                        <li class="btn-lg btn btn-danger"><a href="contact.php">Contact</a></li>
                        <li class="btn-lg btn btn-danger"><a href="compteperso.php">Mon compte</a></li>
                     </ul>
             </nav>
         </div>
      </header>
-     <nav id="apropos" class="container">Pour tout savoir sur notre Garage et nos horaires<a href="apropos.php"> cliquer ici </a></nav>
+     <nav id="apropos" class="container">Pour tout savoir sur notre Garage et nos horaires<a href="apropos.html"> cliquer ici </a></nav>
      
      <nav id="textes" class="container">
         <div><marquee >Informations détaillées sur toutes nos voitures d'occasion</marquee></div>
