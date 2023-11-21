@@ -1,0 +1,127 @@
+
+/*page principales*/
+
+body
+{
+    margin: 0px;
+    padding:0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header
+{
+    margin-top: 5px;
+    padding: 10px;
+    background-image:url("images/head.png");
+    background-size: cover;  
+    background-repeat:no-repeat;
+}
+
+footer 
+{
+    display: flex;
+    justify-content:space-evenly;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:#DC143C;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer > a
+{
+    text-decoration: none;
+    text-shadow: 1px 2px 1px white; 
+}
+
+
+nav
+{
+    font-weight: bold;
+    font-size:x-large;
+}
+#logo-menu
+{
+  display: flex;
+  justify-content:space-between;
+}
+li > a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+img 
+{
+    max-width: 100%;
+    height: auto; 
+}
+li
+{
+ margin: 10px;
+}
+#apropos
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+    letter-spacing: 3px;
+    border: 2px solid;
+    background-color: #DC143C;
+    border-radius: 10px;
+    color: white;
+}
+#apropos > a 
+{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+}
+main
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    padding:10px;
+    margin:10px;
+}
+/*pages reparations mécanique / carrosserie*/
+article
+{
+    margin: 15px;
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
+/*formulaires*/
+.form{
+
+    padding: 10px;
+    font-weight: bold;
+    border:2px solid #4F586B;
+    border-radius: 15px;
+}
+
+legend{
+    font-weight: bold;
+}
+aside
+{
+    display:flex;
+}
+
+em
+{
+    font-weight: bold;
+    color:#00008B;
+}
+@media screan and (max-width:1500) {
+    .container{
+     width:90%;
+    }
+ 
+ }
