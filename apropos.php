@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <!--header-->
-     <nav id="apropos" class="container">Pour tout savoir sur notre Garage et nos horaires<a href="apropos.php"> cliquer ici </a></nav>
+     <nav id="apropos" class="container">Pour tout savoir sur notre Garage et nos horaires<a href="apropos.html"> cliquer ici </a></nav>
      
      <main id="propos" class="container">
         <h1 align="center">A propos </h1>
